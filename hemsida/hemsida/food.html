@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+    <link rel="stylesheet" href="food.css" />
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Pris</th>
+          <th>Kvantiet</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="row-1">
+          <td>Cheese Burger</td>
+          <td>49 kr</td>
+          <td>999</td>
+        </tr>
+        <tr class="row-2">
+          <td>Fries</td>
+          <td>39 kr</td>
+          <td>999</td>
+        </tr>
+        <tr class="row-3">
+          <td>Pizza</td>
+          <td>149</td>
+          <td>999</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">Nedan Finns din Varukorg</td>
+        </tr>
+      </tfoot>
+    </table>
+    
+    <nav id="navbar">
+        <div class="toggle-btn" onclick="myFunction();">
+            <span></span>  
+            <span></span>    
+            <span></span>      
+            </div> 
+
+        <a href="startsida.html" class="brand">Deli Very</a> 
+        <ul class="dropdown" id="dropdown">
+            <li><a href="#" class="alternativ">Food</a></li>
+            <li><a href="login.html" class="alternativ">Login</a></li>
+        </ul>
+        </nav>
+        </div>
+    </nav>
+   
+  </div>
+    <div id="shopping-cart-container"></div>
+    <script src="checkout.js"></script>
+    <script src="hemsida.js"></script>
+
+    <div class="cheese button">
+      <button id="minusBtn">-</button>
+      <span id="cheese-counter">0</span>
+      <button id="plusBtn">+</button>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+@font-face {
+    font-family: font;
+    src: url(Sigmar-Regular.ttf);
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family:"Source Sans Pro", sans-serif;
+}
+img{
+    width: 100%;
+    margin-top: -50px;
+}
+
+ul{
+  
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+ul li{
+    list-style:none;
+    display: inline-block;
+}
+ul li a{
+    color: #fff;
+    padding: 0 20px;
+    font-size: 1.1em;
+    text-decoration:none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+section{
+    padding: 150px 100px 100px;
+    box-sizing: border-box;
+}
+
+section h1{
+    margin:0;
+    padding: 0;
+    font-size: 3em;
+    font-weight: lighter
+}
+section h1 span{
+font-size: 0.8em;
+color:#ea00ff;
+font-weight: bold;
+}
+
+@media (max-width: 991px){
+    section h1{
+      
+        font-size: 2em;
+    }
+    }
+

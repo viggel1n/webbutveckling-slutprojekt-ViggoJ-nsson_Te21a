@@ -1,0 +1,71 @@
+@font-face {
+  font-family: font;
+  src: url(Sigmar-Regular.ttf);
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family:"Source Sans Pro", sans-serif;
+}
+  #shopping-cart-container {
+    min-height: 100px;
+    color: #000000;
+    padding: 0 20px;
+    font-size: 1.1em;
+    text-decoration:none;
+   
+    display: inline-block;
+    margin-top: 30px;
+  }
+  
+  .product-image {
+    width: 200px;
+    
+  }
+  .tabortknapp {
+    background-color: #ea00ff;
+    color: rgb(255, 255, 255);
+    padding: 0.8rem 1rem;
+    font-weight:bolder;
+    cursor: pointer;
+    
+  }
+  table {
+    margin-top: 10%;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    color: #000000;
+  }
+  
+  table th,
+  table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #fcfcfc;
+  }
+  
+  table th {
+    background-color: #ea00ff;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  
+  table tr:nth-child(odd) {
+    background-color: #ea00ffcc;
+    color: #ffffff;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #ea00ff8b;
+    color: #ffffff;
+  }
+  
+  table tr:last-child {
+    background-color: #ea00ff4c;
+    color: #fff;
+  }
+  
+  
